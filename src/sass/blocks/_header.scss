@@ -1,0 +1,15 @@
+.header {
+    padding: 16px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;z-index: 10;
+    .wrap {
+        display: flex;
+        justify-content: space-between;
+        .btns {
+            display: flex;
+            gap: 15px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.features {
+    background: #FDFCFF;
+    padding: 96px 0;
+    padding-top: 300px;
+    position: relative;
+    z-index: 100;
+
+    &__items {
+        display: flex;
+        margin-top: 88px;
+        gap: 72px;
+    }
+
+    &__item {
+        width: 246px;
+        padding-bottom: 16px;
+        border-bottom: 2px solid #EAEBFF;
+    }
+
+    &__img {
+        width: 80px;
+        height: 80px;
+        background: #EAEBFF;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 32px;
+
+        svg,
+        img {
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+    .btn {
+        margin: 0 auto;
+        margin-top: 64px;
+    }
+}

@@ -1,0 +1,40 @@
+.benefits {
+
+    background: #FDFCFF;
+    padding: 96px 0;
+
+    position: relative;
+    z-index: 100;
+    &__items {
+        display: flex;
+        margin-top: 64px;
+        gap: 24px;
+    }
+
+    &__item {
+        background: #EAEBFF;
+        border-radius: 12px;
+        width: 294px;
+        padding: 24px 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        svg,
+        img {
+            margin-bottom: 32px;
+            width: 64px;
+            height: 64px;
+
+        }
+
+        h4 {
+            margin-bottom: 8px;
+        }
+
+        h5.text {
+            color: #252429;
+        }
+    }
+}

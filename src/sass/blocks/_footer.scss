@@ -1,0 +1,47 @@
+.footer {
+    background: #FDFCFF;
+    margin-top: -20px;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 96px;
+
+position: relative;
+z-index: 100;
+    .wrap {
+        position: relative;
+        background: #252429;
+        border-radius: 0px 0px 16px 16px;
+        display: flex;
+        justify-content: space-between;
+        padding: 72px 96px;
+
+    }
+
+    &__content {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #B3B2B7;
+
+        p {
+            margin-bottom: 0;
+            display: block;
+        }
+
+        a {
+            display: block;
+            margin-top: 8px;
+            color: #FDFCFF;
+        }
+    }
+
+    .for-learn {
+        width: 100%;
+        position: absolute;
+        top: -25px;
+        height: 40px;
+        left: 0;
+        background: #EAEBFF;
+        border-radius: 16px;
+    }
+}
